@@ -1,0 +1,211 @@
+/* font-face start
+----------------------------*/
+
+@font-face
+{ 
+	font-family: 'GOODDC';
+	src:url('../fonts/GOODDC.eot') format('eot'), 
+		url('../fonts/GOODDC.svg') format('svg'), 	
+		url('../fonts/GOODDC.ttf') format('ttf'), 
+		url('../fonts/GOODDC.woff') format('woff'), 
+		url('../fonts/GOODDC.woff2') format('woff2');
+}
+@font-face
+{ 
+	font-family: 'Montserrat-Light';
+	src:url('../fonts/Montserrat-Light.eot') format('eot'), 
+		url('../fonts/Montserrat-Light.svg') format('svg'), 	
+		url('../fonts/Montserrat-Light.ttf') format('ttf'), 
+		url('../fonts/Montserrat-Light.woff') format('woff'), 
+		url('../fonts/Montserrat-Light.woff2') format('woff2');
+		font-weight: 300;
+}
+@font-face
+{ 
+	font-family: 'Montserrat-Regular';
+	src:url('../fonts/Montserrat-Regular.eot') format('eot'), 
+		url('../fonts/Montserrat-Regular.svg') format('svg'), 	
+		url('../fonts/Montserrat-Regular.ttf') format('ttf'), 
+		url('../fonts/Montserrat-Regular.woff') format('woff'), 
+		url('../fonts/Montserrat-Regular.woff2') format('woff2');
+		font-weight: 400;
+}
+@font-face
+{ 
+	font-family: 'Montserrat-Bold';
+	src:url('../fonts/Montserrat-Bold.eot') format('eot'), 
+		url('../fonts/Montserrat-Bold.svg') format('svg'), 	
+		url('../fonts/Montserrat-Bold.ttf') format('ttf'), 
+		url('../fonts/Montserrat-Bold.woff') format('woff'), 
+		url('../fonts/Montserrat-Bold.woff2') format('woff2');
+		font-weight: 700;
+}
+
+
+
+/* reset css start
+----------------------------*/
+*{ box-sizing:border-box;}
+body{ padding:0; margin:0; scroll-behavior:smooth;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+figure{ padding:0; margin:0;}
+img{margin: 0; padding: 0;}
+ul,li{ text-decoration:none; display:inline; margin:0; padding:0;}
+a{ text-decoration:none; text-decoration-line: none;display: inline-block;}
+a:hover{text-decoration:none; text-decoration-line: none;}
+p{ margin:0; padding:0}
+
+
+/* default css
+----------------------------*/
+body
+{
+	font-family: 'Montserrat-Regular';
+	font-weight: 400;
+}
+.container
+{
+	width: 100%;
+	max-width: 1190px;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: center;
+}
+.wrap-1080
+{
+	width: 100%;
+	max-width: 1080px;
+	display: flex;
+	justify-content: center;
+}
+
+/* Header Section
+----------------------------*/
+
+.pageheader
+{
+	position: absolute;
+    width: 100%;
+    z-index: 10;
+    padding-top: 53px;
+}
+.menu
+{
+	display: flex;
+	justify-content: flex-end;
+	text-transform: uppercase;
+	margin-right: 16px;
+}
+.menu ul li
+{
+	margin: 18px;
+	font-size: 35px;
+	color: #98aa71;
+}
+
+/* Banner Section
+----------------------------*/
+
+.banner-bg
+{
+	position: relative;
+	background-image: url(../images/banner-image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	padding-top: 166px;
+}
+.banner-bg .banner-caption
+{
+	padding-bottom: 241px;
+	padding-left: 930px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #98aa71;
+}
+.banner-bg .banner-caption .logo-design
+{
+	margin-bottom: 93px;
+}
+.banner-bg .banner-caption h2
+{
+	font-size: 57px;
+	margin-bottom: -12px;
+}
+.banner-bg .banner-caption h1
+{
+	font-family: 'Montserrat-Regular';
+	font-weight: 700;
+	font-size: 78px;
+	margin-bottom: 127px;
+}
+.banner-bg .banner-caption a
+{
+	padding: 18px 24px;
+	font-size: 49px;
+	background-color: rgba(93,105,66,0.7);
+	color: #98aa71;
+}
+
+/* What-Cook Section
+----------------------------*/
+
+.what-cook-bg
+{
+	background-color: #212121;
+	
+}
+.what-cook-bg .what-cook-image
+{
+	width: 100%;
+	position: relative;
+}
+.what-cook-bg .what-cook-image figure
+{
+	float: right;
+}
+
+.what-cook-bg .what-cook-caption
+{
+	position: absolute;
+	top: 48%;
+	left: 31.9%;
+	transform: translate(-50%,-50%);
+	width: 50%;
+}
+.what-cook-bg .what-cook-caption h2
+{
+	font-size: 29px;
+	font-family: 'GOODDC';
+	color: #afc67b;
+	font-weight: 300;
+	margin-bottom: 35px;
+}
+.what-cook-bg .what-cook-caption p
+{
+	font-size: 19px;
+	line-height: 29px;
+	width: 76%;
+	color: #fff;
+	font-family: 'Montserrat-Light';
+	font-weight: 300;
+}
+
+/* What-Cook Section
+----------------------------*/
+
+.three-donts-bg
+{
+	background-color: rgba(78,83,66,0.8);
+}
+.three-dots-caption
+{
+	display: flex;
+	flex: 0 0 33.33%;
+	flex-direction: row;
+}
+.dots-section1
+{
+	flex-direction: row;
+}
+
