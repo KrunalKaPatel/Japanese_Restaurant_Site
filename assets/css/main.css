@@ -196,10 +196,10 @@ body
 	font-weight: 300;
 }
 
-/* What-Cook Section
+/* Three-Dots Section
 ----------------------------*/
 
-.three-donts-bg
+.three-dots-bg
 {
 	background-color: rgba(78,83,66,0.8);
 	padding-top: 96px;
@@ -504,6 +504,11 @@ body
 	border: 1px solid #fff;
 	border-radius: 5px;
 	padding: 2px;
+	color: #fff;
+}
+.book-here .container form .display-33 select option
+{
+	background-color: #212121;
 }
 .book-here .container form .display-33 select,input::placeholder
 {
