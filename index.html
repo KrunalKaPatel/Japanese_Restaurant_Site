@@ -6,10 +6,12 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
 
-	<title>Japanese Restaurant</title>
+	<title>Sushi Parlour</title>
 
 	<!-- CSS -->
 	<link rel="icon" href="assets/images/logo.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
 </head>
@@ -21,10 +23,10 @@
 		<header class="pageheader">
 			<div class="menu">
 				<ul>
-					<li><a href="#">welcome</a></li>
-					<li><a href="#">menu</a></li>
-					<li><a href="#">events</a></li>
-					<li><a href="#">contact</a></li>
+					<li><a href="#" title="Welcome">welcome</a></li>
+					<li><a href="#" title="Menu">menu</a></li>
+					<li><a href="#" title="Events">events</a></li>
+					<li><a href="#" title="Contact">contact</a></li>
 				</ul>
 			</div>
 		</header>
@@ -37,15 +39,15 @@
 				<!-- <div class="container"> -->
 					<div class="banner-image">
 						<figure>
-							<img src="assets/images/banner-image.png">
+							<img src="assets/images/banner-image.png" alt="Banner-BG-Image">
 						</figure>
 						<div class="banner-caption">
 							<figure class="logo-design">
-								<img src="assets/images/logo.png" alt="Logo">
+								<a href="#" title="Sushi Parlour"><img src="assets/images/logo.png" alt="Logo"></a>
 							</figure>
 							<h2>new opening</h2>
 							<h1>23rd sept</h1>
-							<a href="#" class="button">learn more</a>
+							<a href="#" title="Learn More" class="button">learn more</a>
 						</div>
 					</div>
 				<!-- </div> -->
@@ -55,7 +57,7 @@
 			<section class="what-cook-bg">
 				<div class="what-cook-image">
 					<figure>
-						<img src="assets/images/what-cook.png">
+						<img src="assets/images/what-cook.png" alt="What-Cook-Image">
 					</figure>
 					<div class="container">
 						<div class="what-cook-caption">
@@ -113,7 +115,7 @@
 							<div class="to-plate-division">
 								<div class="box display-25">
 									<figure>
-										<img src="assets/images/to-image-1.png">
+										<img src="assets/images/to-image-1.png" alt="California Sushi">
 									</figure>
 								</div>
 								<div class="box display-25">
@@ -123,7 +125,7 @@
 								</div>
 								<div class="box display-25">
 									<figure>
-										<img src="assets/images/to-image-2.png">
+										<img src="assets/images/to-image-2.png" alt="Traditional Wok">
 									</figure>
 								</div>
 								<div class="box display-25">
@@ -139,7 +141,7 @@
 								</div>
 								<div class="box display-25">
 									<figure>
-										<img src="assets/images/to-image-3.png">
+										<img src="assets/images/to-image-3.png" alt="Poke Bowl">
 									</figure>
 								</div>
 								<div class="box display-25">
@@ -149,12 +151,12 @@
 								</div>
 								<div class="box display-25">
 									<figure>
-										<img src="assets/images/to-image-4.png">
+										<img src="assets/images/to-image-4.png" alt="Fresh Salmon">
 									</figure>
 								</div>
 								<div class="box display-25">
 									<figure>
-										<img src="assets/images/to-image-5.png">
+										<img src="assets/images/to-image-5.png" alt="Avocado Sushi">
 									</figure>
 								</div>
 								<div class="box display-25">
@@ -163,7 +165,7 @@
 									<h6>$14.95</h6>
 								</div><div class="box display-25">
 									<figure>
-										<img src="assets/images/to-image-6.png">
+										<img src="assets/images/to-image-6.png" alt="King Sushi">
 									</figure>
 								</div>
 								<div class="box display-25">
@@ -275,7 +277,7 @@
 						<h2>Book here</h2>
 					</div>
 					<form class="display-flex">
-						<div class="display-33 item-align">
+						<div class="display-33">
 							<p>How many people?</p>
 							<select>
 								<option>1 people</option>
@@ -285,30 +287,34 @@
 							</select>
 						</div>
 
-						<div class="display-33 item-align">
+						<div class="display-33">
 							<p>What is your date?</p>
 							<input type="date" name="" placeholder="17-02-2020">
 						</div>
 
-						<div class="display-33 item-align">
+						<div class="display-33">
 							<p>Time</p>
 							<input type="Time" name="" placeholder="10:00am">
 						</div>
 
-						<div class="display-33 item-align">
+						<div class="display-33">
 							<p>Name</p>
 							<input type="text" name="" placeholder="Full Name">
 						</div>
 
-						<div class="display-33 item-align">
+						<div class="display-33">
 							<p>Email</p>
 							<input type="text" placeholder="Your email address" name="">
 						</div>
 
 
-						<div class="display-33 item-align">
+						<div class="display-33">
 							<p>Phone</p>
 							<input type="text" placeholder="Your Phone" name="">
+						</div>
+
+						<div>
+							<input type="submit" name="" class="submit-button">
 						</div>
 					</form>
 				</div>
@@ -321,22 +327,137 @@
 				</figure>
 			</section>
 
-			<!--  -->
-			<section>
-				<div>
-					
+			<!-- Our-Menu-2 -->
+			<section class="our-menu-2-bg display-flex">
+				<div class="container">
+					<div class="our-menu-heading">
+						<h2>Discover</h2>
+						<h4>our new menu</h4>
+					</div>
+					<div class="wrap-1080">
+						<div class="card-slider our-menu-card">
+							<div class="item">
+							<div class="card display-33">
+								<figure>
+									<img src="assets/images/card1.png">
+								</figure>
+								<div class="card-caption">
+									<span>Food / 16th March,2020</span>
+									<h6>Lorem ipsum dolor sit</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed </p>
+									<a href="#" title="Read More"><span>read more</span></a>
+								</div>
+							</div>
+							</div>
+							<div class="item">
+							<div class="card display-33">
+								<figure>
+									<img src="assets/images/card2.png">
+								</figure>
+								<div class="card-caption">
+									<span>Food / 16th March,2020</span>
+									<h6>Lorem ipsum dolor sit</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed </p>
+									<a href="#" title="Read More"><span>read more</span></a>
+								</div>
+							</div>
+							</div>
+							<div class="item">
+							<div class="card display-33">
+								<figure>
+									<img src="assets/images/card3.png">
+								</figure>
+								<div class="card-caption">
+									<span>Food / 16th March,2020</span>
+									<h6>Lorem ipsum dolor sit</h6>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed </p>
+									<a href="#" title="Read More"><span>read more</span></a>
+								</div>
+							</div>
+							</div>
+
+						</div>
+					</div>
 				</div>
 			</section>
-
 
 		</section>
 
 		<!-- Footer -->
-		<footer></footer>
+		<footer class="pagefooter">
+			<!-- Social-Links Section -->
+			<div class="social-links display-flex">
+				<div class="container">
+					<h2>“</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+					<h4>Linda Steward</h4>
+					<div class="social">
+						<a href="https://en-gb.facebook.com/login/" target="_blank" title="Facebook"><i class="fa fa-facebook-f"></i></a>
+						
+						<a href="https://twitter.com/login" target="blank_" title="Twitter"><i class="fa fa-twitter"></i></a>
+
+						<a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a>
+
+						<a href="https://www.pinterest.ca/" target="_blank" title="Pintrest"><i class="fa fa-pinterest-p"></i></a>
+
+						<a href="https://accounts.google.com/ServiceLogin/webreauth?service=CPanel&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="blank_" title="Google"><i class="fa fa-google"></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="bottom-footer display-flex">
+				<div class="container">
+					<div class="wrap-1080">
+					<div class="about">
+						<div class="display-50">
+							<div class="left-about">
+								<h4>About</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ultimam</p>
+							</div>
+						</div>
+
+						<div class="display-50">
+							<div class="right-about">
+								<div class="display-33">
+								<h4>About</h4>
+									<ul>
+										<a href="#" title="Team"><li>Team</li></a>
+										<a href="#" title="Join us"><li>Join us</li></a>
+										<a href="#" title="Ethic"><li>Ethic</li></a>
+										<a href="#" title="Goals"><li>Goals</li></a>
+									</ul>
+								</div>
+								<div class="display-33">
+								<h4>About</h4>
+									<ul>
+										<a href="#" title="Team"><li>Team</li></a>
+										<a href="#" title="Join us"><li>Join us</li></a>
+										<a href="#" title="Ethic"><li>Ethic</li></a>
+										<a href="#" title="Goals"><li>Goals</li></a>
+									</ul>
+								</div>
+								<div class="light-font display-33">
+								<h4>About</h4>
+									<ul>
+										<a href="#" title="Team"><li>Team</li></a>
+										<a href="#" title="Join us"><li>Join us</li></a>
+										<a href="#" title="Ethic"><li>Ethic</li></a>
+										<a href="#" title="Goals"><li>Goals</li></a>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
 	</section>
 
 	<!-- JavaScript -->
-	<script type="text/javascript" src="assets/js/general.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="assets/js/general.js"></script>
 </body>
 </html>
