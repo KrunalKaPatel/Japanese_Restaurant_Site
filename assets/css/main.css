@@ -56,7 +56,7 @@
 body{ padding:0; margin:0; scroll-behavior:smooth;}
 h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
 figure{ padding:0; margin:0;display: flex;}
-img{margin: 0; padding: 0;max-width: 100%;}
+img{margin: 0; padding: 0;max-width: 100%; width:100%;}
 ul,li{ text-decoration:none; display:inline; margin:0; padding:0;}
 a{ text-decoration:none; text-decoration-line: none;display: inline-block;}
 a:hover{text-decoration:none; text-decoration-line: none;}
